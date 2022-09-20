@@ -14,23 +14,15 @@ line-height: 10px;
 font-size: 24px;
 }
 
-#map { 
-    
-    height: 300px; 
-    width: 200px;
-    display: inline-block;
-}
+#map {height: 300px; width: 200px;display: inline-block;flex: 0 0 50%;}
+#map1 {height: 300px; width: 200px;display: inline-block;flex: 0 0 50%;}
+#map2 {height: 300px; width: 200px;display: inline-block;flex: 0 0 50%;}
 
-#map1 { 
-    
-    height: 300px; 
-    width: 200px;
-    display: inline-block;
-}
-
-#map2 { 
-    
-    height: 300px; 
-    width: 200px;
-    display: inline-block;
+.card{
+    background-color: white;
+    width: 600px;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
